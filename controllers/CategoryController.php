@@ -15,7 +15,7 @@ class CategoryController
 
         $title = "Quản lý danh mục";
         $view = "admin/category/list-category";
-
+        
         require_once PATH_VIEW . 'admin/main.php';
     }
 }
