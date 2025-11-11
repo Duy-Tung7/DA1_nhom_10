@@ -9,7 +9,7 @@ class ProductController
         $this->modelProduct = new ProductModel();
     }
 
-    public function Home()
+    public function list()
     {
         $title = "Đây là trang chủ nhé hahaa";
         $thoiTiet = "Hôm nay trời có vẻ là mưa";
